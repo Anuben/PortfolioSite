@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52DF50DD-18F3-2B20-FC0C-14E369068681" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="HEALTH_PLAN">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>HEALTH_PLAN</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:45:27 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAN_ID" id="7E60A0F8-5BF6-FDBE-7A1F-62B542EE8616">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>HEALTH_PLAN</sourceObjSchema>
+<sourceObjName>PLAN_ID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:45:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY_NAME" id="5A06F536-0795-0A22-ADBB-50573E5A673B">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>HEALTH_PLAN</sourceObjSchema>
+<sourceObjName>COMPANY_NAME</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:45:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISSUE_DATE" id="2B3A029B-433A-3CCC-A626-5B01D71C0103">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>HEALTH_PLAN</sourceObjSchema>
+<sourceObjName>ISSUE_DATE</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:45:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXP_DATE" id="72C63A0F-6241-3067-A350-C14DC082DE95">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>HEALTH_PLAN</sourceObjSchema>
+<sourceObjName>EXP_DATE</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:45:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEF96849-A851-F297-4D4A-050F3B58793D" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="HEALTH_PLAN_PK">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>SYS_C00803934</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:45:30 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E60A0F8-5BF6-FDBE-7A1F-62B542EE8616"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

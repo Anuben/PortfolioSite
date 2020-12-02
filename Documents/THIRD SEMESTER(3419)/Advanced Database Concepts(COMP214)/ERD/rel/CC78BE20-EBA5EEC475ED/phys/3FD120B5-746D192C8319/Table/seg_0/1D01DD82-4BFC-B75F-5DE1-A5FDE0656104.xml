@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DOCTOR_SALARY_DETAILS" directorySegmentName="seg_0" id="1D01DD82-4BFC-B75F-5DE1-A5FDE0656104">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<schemaObject>538335D8-334A-03E7-F70A-582709B2AD49</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F3008B8-669A-251B-9907-02F147D5214D</segment>
+<tableSpace>C90D43BC-CAD0-80C1-BEBC-DF9FEDC4A61E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DOCTOR_ID" id="1E82708E-BFC0-7840-8D2F-D33C5C71B1FF">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTH" id="297F4140-3C45-2854-B7A2-139B492CA831">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY_ID" id="553D989D-AE30-3B56-489D-706DC5D00373">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="YEAR" id="A09D3EF3-F410-35EB-D198-DA9FF79B1164">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALARY" id="A428FA80-4104-86DF-6C34-B72DF3FF1ABB">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C00803593" id="C9D23714-C7DF-0D8C-6B0C-DE4008F79E76">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DOCTOR_SALARY_DETAILS_PK" id="D6FDCF97-BBBF-1832-352C-4322DD92A71C">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<schemaObject>538335D8-334A-03E7-F70A-582709B2AD49</schemaObject>
+<segment>0DBE363B-A1AE-E36C-C53B-F0680026AAC0</segment>
+<tableSpace>C90D43BC-CAD0-80C1-BEBC-DF9FEDC4A61E</tableSpace>
+<indexSegment>0DBE363B-A1AE-E36C-C53B-F0680026AAC0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

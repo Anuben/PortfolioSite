@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D01DD82-4BFC-B75F-5DE1-A5FDE0656104" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="DOCTOR_SALARY_DETAILS">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>DOCTOR_SALARY_DETAILS</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SALARY_ID" id="553D989D-AE30-3B56-489D-706DC5D00373">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR_SALARY_DETAILS</sourceObjSchema>
+<sourceObjName>SALARY_ID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCTOR_ID" id="1E82708E-BFC0-7840-8D2F-D33C5C71B1FF">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR_SALARY_DETAILS</sourceObjSchema>
+<sourceObjName>DOCTOR_ID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9E7E732-E1A1-321D-159B-315E147462E6" referredColumn="CB33C410-5E7B-2D01-549C-CEB962CDF972"/>
+</associations>
+</Column>
+<Column name="SALARY" id="A428FA80-4104-86DF-6C34-B72DF3FF1ABB">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR_SALARY_DETAILS</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MONTH" id="297F4140-3C45-2854-B7A2-139B492CA831">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR_SALARY_DETAILS</sourceObjSchema>
+<sourceObjName>MONTH</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YEAR" id="A09D3EF3-F410-35EB-D198-DA9FF79B1164">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR_SALARY_DETAILS</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6FDCF97-BBBF-1832-352C-4322DD92A71C" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="DOCTOR_SALARY_DETAILS_PK">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>SYS_C00803592</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="553D989D-AE30-3B56-489D-706DC5D00373"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D23714-C7DF-0D8C-6B0C-DE4008F79E76" name="SYS_C00803593">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E82708E-BFC0-7840-8D2F-D33C5C71B1FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

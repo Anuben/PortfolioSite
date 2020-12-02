@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="69719E77-73AE-3249-0006-6AF8F2BCD21E" containerWithKeyObject="427283D0-5E43-26A0-0B4C-C0BF08A7D83A" localFKIndex="827C2E2B-C93B-EF38-CEB0-40AFE80461B9" name="FK_PID">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>FK_PID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:27 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>COMP214_F20_173.PRESCRIPTION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2F628B6-C2CE-F4CB-A147-EB7A4B51DB17</referredTableID>
+<keyObject>2444EF72-D2E2-2F67-59E7-23C6E82ED56E</keyObject>
+<referredKeyID>2444EF72-D2E2-2F67-59E7-23C6E82ED56E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PRESC_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

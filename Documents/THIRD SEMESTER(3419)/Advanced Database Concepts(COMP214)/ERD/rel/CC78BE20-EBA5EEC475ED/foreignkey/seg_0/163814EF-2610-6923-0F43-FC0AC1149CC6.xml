@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="163814EF-2610-6923-0F43-FC0AC1149CC6" containerWithKeyObject="D2F628B6-C2CE-F4CB-A147-EB7A4B51DB17" localFKIndex="7AFBCFD6-3B25-BB2B-B7F2-97CDC1ABAFCF" name="FK_PATID">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>FK_PATID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:40 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>COMP214_F20_173.PATIENT</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>063EEBAF-6B1B-3B42-9E9E-A979B920A7B6</referredTableID>
+<keyObject>2EAD95A1-8F44-D8C4-D167-D4501904285C</keyObject>
+<referredKeyID>2EAD95A1-8F44-D8C4-D167-D4501904285C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>PATIENT_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

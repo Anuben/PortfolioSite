@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74C51682-EB31-2464-12D8-2A75DF07BE14" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="DOCTOR">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>DOCTOR</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:35 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DOCTOR_ID" id="CB33C410-5E7B-2D01-549C-CEB962CDF972">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR</sourceObjSchema>
+<sourceObjName>DOCTOR_ID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCFNAME" id="8CEA63A4-D61F-A66B-F0BE-BD65A8BECF92">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR</sourceObjSchema>
+<sourceObjName>DOCFNAME</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCLNAME" id="BC4FC077-CF47-1B09-6DC6-1E5C5D24A7D9">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR</sourceObjSchema>
+<sourceObjName>DOCLNAME</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCCONTACT_NUM" id="B07BE100-042F-2AEA-EECE-F7DD41B3B8F8">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DOCTOR</sourceObjSchema>
+<sourceObjName>DOCCONTACT_NUM</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="344F78AC-DEEA-5D32-3B58-853E6C061751" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="DOCTOR_PK">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>SYS_C00803590</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB33C410-5E7B-2D01-549C-CEB962CDF972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="552CEB9F-6F2F-CCD2-F7B1-9D73BAA0C97B" name="FK_NUM">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>FK_NUM</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B07BE100-042F-2AEA-EECE-F7DD41B3B8F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EA22C0A-AE96-0DC1-7941-05997C637548" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="FK_NUM">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>FK_NUM</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:48:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B07BE100-042F-2AEA-EECE-F7DD41B3B8F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

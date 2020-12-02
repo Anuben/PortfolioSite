@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC0C1703-8211-4A0E-B789-F6A4A0527A27" containerWithKeyObject="D2F628B6-C2CE-F4CB-A147-EB7A4B51DB17" localFKIndex="514654B2-D686-7776-5B2D-13D1B8AE0866" name="FK_DOCID">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>FK_DOCID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:39 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>COMP214_F20_173.DOCTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74C51682-EB31-2464-12D8-2A75DF07BE14</referredTableID>
+<keyObject>344F78AC-DEEA-5D32-3B58-853E6C061751</keyObject>
+<referredKeyID>344F78AC-DEEA-5D32-3B58-853E6C061751</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>DOCTOR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

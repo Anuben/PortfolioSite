@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4C8F203-E421-0BC4-3D2A-6BAF628A78AB" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="DRUG">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>DRUG</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DIN" id="735B98A5-FEA2-75C4-5AAA-D7B455DD86F9">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DRUG</sourceObjSchema>
+<sourceObjName>DIN</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG_NAME" id="4BA3A5EC-DE65-DEE4-E0AF-A72C99673361">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DRUG</sourceObjSchema>
+<sourceObjName>DRUG_NAME</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG_DESC" id="34F21E34-3416-BAFF-B5C8-FC4F23F7C05A">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DRUG</sourceObjSchema>
+<sourceObjName>DRUG_DESC</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG_UNIT" id="3EBF0010-BCFA-7E77-7CC0-6DBE7D1AE602">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DRUG</sourceObjSchema>
+<sourceObjName>DRUG_UNIT</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG_COST" id="FB17EBE0-AAC3-119B-795C-7AB6466E513A">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DRUG</sourceObjSchema>
+<sourceObjName>DRUG_COST</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG_DISP_FEE" id="9CE8820E-540D-2AC7-61E0-FA2C8D60D7FD">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DRUG</sourceObjSchema>
+<sourceObjName>DRUG_DISP_FEE</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG_INTERACTION" id="5AA01838-E9EC-E974-C5B6-826CA34BCB97">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DRUG</sourceObjSchema>
+<sourceObjName>DRUG_INTERACTION</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG_QTY" id="D6184662-6E24-0C7C-ED0F-184FD630654D">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>DRUG</sourceObjSchema>
+<sourceObjName>DRUG_QTY</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AADE8555-8C1E-1D3D-1109-A2B0A554BD43" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="DRUG_PK">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>SYS_C00803655</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="735B98A5-FEA2-75C4-5AAA-D7B455DD86F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

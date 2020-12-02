@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRESCRIPTION" directorySegmentName="seg_0" id="86557607-4FB1-CE0A-DA79-B9F1DB8BD09D">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nameChanged>true</nameChanged>
+<schemaObject>538335D8-334A-03E7-F70A-582709B2AD49</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>8F3008B8-669A-251B-9907-02F147D5214D</segment>
+<tableSpace>C90D43BC-CAD0-80C1-BEBC-DF9FEDC4A61E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRESC_ID" id="4AA7ED60-D8E8-D2BC-F1FE-086DBA8B522A">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRESC_TOTAL" id="5D53701E-50B1-B219-2EF2-D8F379C3E273">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PATIENT_ID" id="8EDA59CE-A0B6-1154-8DF3-1062492D0934">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCTOR_ID" id="A9CECFEA-010D-CA15-244E-78ADFA95268F">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRESC_DATE" id="FEAB9248-44EB-0183-243E-11A8D07A8F31">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DOCIDv1" id="540C05AB-C876-E3BA-DEC6-B9A6F337F196">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_PATIDv1" id="DE45F299-AA56-5CFF-E11A-3356EDD7D2A5">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRESCRIPTIONv1_PK" id="A0864219-A183-9A33-1BE7-B7174365B2D5">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<schemaObject>538335D8-334A-03E7-F70A-582709B2AD49</schemaObject>
+<segment>0DBE363B-A1AE-E36C-C53B-F0680026AAC0</segment>
+<tableSpace>C90D43BC-CAD0-80C1-BEBC-DF9FEDC4A61E</tableSpace>
+<indexSegment>0DBE363B-A1AE-E36C-C53B-F0680026AAC0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

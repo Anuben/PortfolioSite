@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="DRUG_TRIGGER" directorySegmentName="seg_0" id="6824589D-481E-C899-F547-84612B687738">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>DRUG_TRIGGER</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:47:49 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<actions>INSERT, UPDATE, DELETE</actions>
+<body><![CDATA[DECLARE
+      drugdescription  drug.drug_desc%TYPE; 
+      din     drug.din%TYPE;    
+    BEGIN
+    din := :NEW.din;
+    IF INSERTING THEN
+    drugdescription := 'Insert';
+    ELSIF UPDATING THEN
+    drugdescription := 'Update';
+    ELSIF DELETING THEN
+    din := :OLD.din;
+    drugdescription := 'Delete';
+    ELSE
+    DBMS_OUTPUT.PUT_LINE('You can not reach this data.');
+    END IF;
+
+    END drug_trigger;]]></body>
+<triggerTime>AFTER</triggerTime>
+<owner>FA063F6F-7A9D-E563-EA9E-B8FE7E4D5656</owner>
+<table>C4C8F203-E421-0BC4-3D2A-6BAF628A78AB</table>
+</TriggerOraclev10g>

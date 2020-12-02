@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2F628B6-C2CE-F4CB-A147-EB7A4B51DB17" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="PRESCRIPTION">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>PRESCRIPTION</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:33 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRESC_ID" id="BE408198-2C8C-3961-DE4D-7370835E8786">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>PRESC_ID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESC_DATE" id="A114C9EE-D398-9D5C-1B4C-7A25E2E7B8C3">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>PRESC_DATE</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESC_TOTAL" id="D6D1ED96-2B6B-2424-DDF6-615BBC66B435">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>PRESC_TOTAL</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_ID" id="D91AA4EB-2A1E-4101-87E4-9F56DC45242A">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>PATIENT_ID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="163814EF-2610-6923-0F43-FC0AC1149CC6" referredColumn="4E36DAB6-1FE1-4B44-F651-12B67D599A00"/>
+</associations>
+</Column>
+<Column name="DOCTOR_ID" id="2C9E8F11-DA11-5189-6D1E-434797059E70">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>DOCTOR_ID</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:34 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC0C1703-8211-4A0E-B789-F6A4A0527A27" referredColumn="CB33C410-5E7B-2D01-549C-CEB962CDF972"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2444EF72-D2E2-2F67-59E7-23C6E82ED56E" schemaObject="538335D8-334A-03E7-F70A-582709B2AD49" name="PRESCRIPTION_PK">
+<sourceConnName>Fall2020</sourceConnName>
+<sourceObjSchema>COMP214_F20_173</sourceObjSchema>
+<sourceObjName>SYS_C00803821</sourceObjName>
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:35 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE408198-2C8C-3961-DE4D-7370835E8786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="514654B2-D686-7776-5B2D-13D1B8AE0866" name="FK_DOCID">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:39 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C9E8F11-DA11-5189-6D1E-434797059E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AFBCFD6-3B25-BB2B-B7F2-97CDC1ABAFCF" name="FK_PATID">
+<createdBy>16476</createdBy>
+<createdTime>2020-12-01 19:46:40 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91AA4EB-2A1E-4101-87E4-9F56DC45242A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
